@@ -4,7 +4,9 @@ class UnionFind:
     def __init__(self, size):
         self.parent = list(range(size))
         self.rank = [0] * size
-        history = []
+        
+
+        
 
     def find(self, x):
         if self.parent[x] != x:
