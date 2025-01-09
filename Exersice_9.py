@@ -98,6 +98,6 @@ def display_maze(n, horizontal_segments, vertical_segments):
         print("".join(row))
 
 if __name__ == "__main__":
-    n = 10  # Change to desired grid size
+    n = 20  # Change to desired grid size
     horizontal_segments, vertical_segments = generate_maze(n)
     display_maze(n, horizontal_segments, vertical_segments)
